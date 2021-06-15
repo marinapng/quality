@@ -13,7 +13,6 @@ import java.util.List;
 @Data
 public class PropertyDTO {
 
-
     @NotBlank(message = "The property's name can't be empty")
     @Size(max = 30, message = "The max length of the property's name is 30 characters")
     @Pattern(regexp = "[A-Z].*", message = "The first name should start with a capital character")
